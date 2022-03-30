@@ -1,0 +1,65 @@
+// light color palette
+
+//fontawesome
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+// font-family: 'IBM Plex Sans', sans-serif;
+
+// .light {
+    // $background-primary: #ffffff;
+    // $title-primary: #2e3333;
+    // $text-primary: #585C5C;
+    // $primary-color: #00CCBC;
+    // $secondary-color: #D0EB99;
+    // $title-color: #440063;
+    // $divider: #D1D7D7;
+    // $badge-primary-color: #BB352B;
+    // $badge-secondary-color: #87160f;
+    // $rating-color: #007E8A;
+// }
+.light{
+    --background-primary: #ffffff;
+    --title-primary: #2e3333;
+    --text-primary: #585C5C;
+    --primary-color: #00CCBC;
+    --secondary-color: #D0EB99;
+    --title-color: #440063;
+    --divider: #D1D7D7;
+    --badge-primary-color: #BB352B;
+    --badge-secondary-color: #87160f;
+    --rating-color: #007E8A;
+    --trash-color: #440063;
+    --card-restaurant-border: #440063;
+}
+
+// dark color palette
+
+// .dark {
+    // $background-primary: #202222;
+    // $title-primary: #ffffff;
+    // $text-primary: #D1D7D7;;
+    // $primary-color: #00CCBC;
+    // $secondary-color: #D0EB99;
+    // $title-color: #440063;
+    // $divider: #A0A4A9;
+    // $badge-primary-color: #d60000;
+    // $badge-secondary-color: #d72100;
+    // $rating-color: #03aab9;
+// }
+
+.dark{
+    --background-primary: #202222;
+    --title-primary: #ffffff;
+    --text-primary: #D1D7D7;;
+    --primary-color: #00CCBC;
+    --secondary-color: #D0EB99;
+    --title-color: #440063;
+    --divider: #A0A4A9;
+    --badge-primary-color: #BB352B;
+    --badge-secondary-color: #87160f;
+    --rating-color: #03aab9;
+    --trash-color: #D0EB99;
+    --card-restaurant-border: #00CCBC;
+}

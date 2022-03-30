@@ -1,0 +1,64 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//classi per javascript
+.nope{
+    display: none;
+}
+.no-number{
+    display: block;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: #761b18;
+    background-color: #f9d6d5;
+    border-color: #f7c6c5;
+}
+
+tbody tr{
+    border-bottom: 1px solid black;
+}
+
+.immagine-piatto-index{
+    height: 100px;
+    width: 60%;
+}
+
+.immagine-show{
+    width: 50%;
+}
+
+.visible-resp, .not-visible-resp{
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+
+    .responsive-not-visible{
+        display: none;
+    }
+
+    .description{
+        display: block;
+        height: 70px;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+
+    .visible, .not-visible{
+        display: none;
+    }
+
+    .visible-resp, .not-visible-resp{
+        display: block;
+        text-align: center;
+    }
+  }
